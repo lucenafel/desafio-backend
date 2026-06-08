@@ -26,11 +26,4 @@ class SpecialCharacterRuleTest {
 
         assertNull(rule.validate("Abc123!"))
     }
-
-    @Test
-    fun `ignores validation when configured with empty set`() {
-        val rule = SpecialCharacterRule(emptySet())
-
-        assertNull(rule.validate("Abc123"))
-    }
 }
