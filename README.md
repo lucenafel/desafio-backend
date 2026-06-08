@@ -15,7 +15,7 @@ A ideia do desafio é implementar uma API que valida uma senha seguindo as segui
 
 ## Tecnologias utilizadas
 
-- Java 25
+- Java 21
 - Kotlin 2.2.21
 - Spring Boot 4.0.6
 - Maven
@@ -26,7 +26,7 @@ A ideia do desafio é implementar uma API que valida uma senha seguindo as segui
 
 ### Pré-requisitos
 
-- Java 25 instalado;
+- Java 21 instalado;
 - Maven disponível no ambiente, ou uso do wrapper `./mvnw`.
 
 ### Rodando localmente
@@ -101,7 +101,7 @@ Pode ocorrer quando o corpo da requisição estiver ausente, malformado ou incom
 
 Tendo em conta os critérios de avaliação do desafio, como SOLID e clean code, foi adotada uma arquitetura em camadas com domínio isolado da camada web.
 
-A divisão principal fica em tres áreas:
+A divisão principal fica em três áreas:
 
 - `domain`: contém o núcleo da regra de negócio, com o `PasswordValidator`, o resultado da validação, as violações e as regras individuais;
 - `infra.config`: concentra a composição dos beans e a configuração das regras usadas pela aplicação;
