@@ -1,4 +1,4 @@
-package com.itidigital.auth_service
+package com.itidigital.authservice
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
