@@ -3,7 +3,6 @@ package com.itidigital.authservice.infra.web
 import com.itidigital.authservice.domain.PasswordValidator
 import com.itidigital.authservice.infra.web.dto.PasswordValidationRequest
 import com.itidigital.authservice.infra.web.dto.PasswordValidationResponse
-import jakarta.validation.Valid
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RequestMapping
